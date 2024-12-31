@@ -1,5 +1,20 @@
+
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/newTask/*"
+  to = "/NewTask.jsx"
   status = 200
-  force = true
+
+[[redirects]]
+  from = "/contacts"
+  to = "/contacts.jsx"
+  status = 200
+
+[[redirects]]
+  from = "/dashboard"
+  to = "/Dashboard.jsx"
+  status = 200
+
+[[redirects]]
+  from = "/taskList"
+  to = "/TaskList.jsx"
+  status = 200
