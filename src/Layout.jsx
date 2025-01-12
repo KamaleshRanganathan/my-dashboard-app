@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
-import Footer from "../components/Footer";
+import Footer from "./components/Footer";
 
 const Layout = () => {
   const [isOpen, setIsOpen] = useState(false); // Initial state: closed
@@ -8,7 +8,6 @@ const Layout = () => {
     "valentine",
     "cyberpunk",
     "light",
-    "lemonade",
     "aqua",
     "retro",
   ]; // Add your themes here

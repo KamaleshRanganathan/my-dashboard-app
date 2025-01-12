@@ -29,7 +29,7 @@ export default class Example extends PureComponent {
 
     // Data processing and conditional rendering combined for efficiency
     return (
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width="100%" height={300} >
         {tasks.length > 0 ? (
           <BarChart
             width={500}
@@ -46,7 +46,7 @@ export default class Example extends PureComponent {
             <XAxis dataKey="name" />
             <YAxis />
             <Tooltip />
-            <Legend />
+            <Legend  />
             <Bar
               dataKey="count"
               fill="#82ca9d"
@@ -73,3 +73,5 @@ function getBarData(tasks) {
     { name: "Not Completed", count: statusCounts.No },
   ];
 }
+
+

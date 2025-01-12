@@ -14,6 +14,6 @@ export default {
   plugins: [daisyui],
 
   daisyui: {
-    themes: ["light", "valentine", "aqua", "cyberpunk", "retro", "lemonade"],
+    themes: ["light", "valentine", "aqua", "cyberpunk", "retro"],
   },
 };
