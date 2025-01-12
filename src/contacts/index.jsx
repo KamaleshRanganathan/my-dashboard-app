@@ -50,7 +50,7 @@ function Contact() {
           </li>
           <li className="flex flex-row items-center cursor-pointer hover:text-primary">
             <a
-              href="https://www.linkedin.com/in/Kamalesh_R"
+              href="https://www.linkedin.com/in/Kamalesh--r"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center"
