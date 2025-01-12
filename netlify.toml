@@ -1,20 +1,25 @@
 
 [[redirects]]
   from = "/newTask/*"
-  to = "/NewTask.jsx"
+  to = "/newTask"
   status = 200
 
 [[redirects]]
-  from = "/contacts"
-  to = "/contacts.jsx"
+  from = "/"
+  to = "/"
   status = 200
 
 [[redirects]]
-  from = "/dashboard"
-  to = "/Dashboard.jsx"
+  from = "/contacts/*"
+  to = "/contacts"
   status = 200
 
 [[redirects]]
-  from = "/taskList"
-  to = "/TaskList.jsx"
+  from = "/dashboard/*"
+  to = "/dashboard"
+  status = 200
+
+[[redirects]]
+  from = "/taskList/*"
+  to = "/taskList"
   status = 200
